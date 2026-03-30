@@ -33,7 +33,6 @@ PROXIES = {"http": _proxy_url, "https": _proxy_url} if _proxy_url else {}
 WITH_SEND: bool = os.getenv("WITH_SEND", "true").lower() == "true"
 
 # ── HTTP-заголовки ────────────────────────────────────────
-# Cookie берём из .env, чтобы не светить сессию в коде.
 HEADERS: dict[str, str] = {
     "Accept": (
         "text/html,application/xhtml+xml,application/xml;"
