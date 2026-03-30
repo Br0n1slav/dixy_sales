@@ -1,4 +1,3 @@
-# Секреты — никогда не коммитить!
 .env
  
 # Python
@@ -12,16 +11,9 @@ dist/
 build/
 .eggs/
  
-# Виртуальное окружение
 venv/
 .venv/
 env/
  
-# IDE
 .idea/
-.vscode/
-*.swp
- 
-# Логи
-*.log
  
